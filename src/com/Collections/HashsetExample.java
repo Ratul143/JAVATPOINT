@@ -8,8 +8,8 @@ public class HashsetExample{
 
     public static void main(String args[]){
 
-        //HashSet<String> set = new HashSet<String>(); // creating hashSet
-         TreeSet<String> set = new TreeSet<>(); // Data is unordered but it is alphabetically sorted
+        HashSet<String> set = new HashSet<String>(); // creating hashSet
+        // TreeSet<String> set = new TreeSet<>(); // Data is unordered but it is alphabetically sorted
 
         set.add("Mehrab");                 // adding elements
         set.add("Hossain");
