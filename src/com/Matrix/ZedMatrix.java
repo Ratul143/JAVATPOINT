@@ -1,8 +1,5 @@
 package com.Matrix;
 
-// Java program to print a 
-// square matrix in Z form 
-
 import java.lang.*;
 import java.io.*;
 
