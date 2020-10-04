@@ -4,8 +4,9 @@ import java.lang.*;
 import java.io.*;
 
 class ZedMatrix {
-    public static void Zed(int arr[][], int n)
+    public static int Zed(int arr[][], int n)
     {
+        int zSum =0;
         int i = 0, j, k;
 
         // print first row 
@@ -29,6 +30,8 @@ class ZedMatrix {
             System.out.print(arr[i][j] + " ");
 
         System.out.print("\n");
+
+        return zSum;
     }
 
     public static void main(String[] args)
@@ -46,11 +49,12 @@ class ZedMatrix {
                         { 1, 8, 7, 5, 7 }
                     };
 
-        Zed(a, 5);
-        Zed(b, 5);
+      int zSuma= Zed(a, 5);
+      int zSumb= Zed(b, 5);
+      int zSumC = zSuma+zSumb;
 
         System.out.print("\n");
 
-        System.out.println( "The sum of the Z Square is = " );
+        System.out.println( "The sum of the Z Square is = "+ zSumC);
     }
 }
